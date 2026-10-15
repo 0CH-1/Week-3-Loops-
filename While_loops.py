@@ -33,3 +33,15 @@ while bars_charged<bars_to_charge:
  bars_charged=bars_charged +1
  print(f"Charging: {'█' * bars_charged}")
 print("The battery is fully charged")
+
+
+#asking the user for a phrase
+print("Please enter a phrase: ")
+phrase=input()
+
+Hellos=0
+
+print()
+while Hellos< len(phrase):
+ print("Hi ",end="")
+ Hellos= Hellos+1
