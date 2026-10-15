@@ -36,3 +36,10 @@ for count in range(0, len(word),1):
     print(f"index: {count}:", word[count])
 print("Done!")
 
+#asking user for a phrase
+print("What phrase do you want to see in reverse?")
+phrase=input()
+print("\nReversing...")
+print("The phrase in reverse is", end="")
+for position in range(len(phrase)-1, -1, -1):
+    print(phrase[position], end="")
