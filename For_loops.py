@@ -27,3 +27,12 @@ print("\nAdjusting brightness...\n")
 for brightness in range(2, brightness +1, 2):
     print(f"Brightness level: {'*' * brightness}")
 print("Complete")
+
+#asking the user for a word
+print("What word do you see?")
+word=input()
+print("\nDisplaying index options...\n")
+for count in range(0, len(word),1):
+    print(f"index: {count}:", word[count])
+print("Done!")
+
