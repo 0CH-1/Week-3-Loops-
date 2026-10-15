@@ -43,3 +43,11 @@ print("\nReversing...")
 print("The phrase in reverse is", end="")
 for position in range(len(phrase)-1, -1, -1):
     print(phrase[position], end="")
+
+print("What phrase do you want to print? ")
+phrase=input()
+print("\nOutputting...")
+print("The phrase is: ")
+
+for letter in phrase:
+    print(letter)
